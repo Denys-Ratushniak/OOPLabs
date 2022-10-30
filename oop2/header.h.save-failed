@@ -1,0 +1,85 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+template <class T> class Node;
+template <class T> class DoublyLinkedList;
+
+template <class T>
+class Node
+{
+private:
+    Node *next,*prev;
+    T val;
+public:
+    Node(T val)
+    {
+        next=NULL;
+        prev=NULL;
+        this->val=val;
+    }
+    T getVal()
+    {
+        return val;
+    }
+    friend class DoublyLinkedList<T>;
+
+};
+
+template <class T>
+class DoublyLinkedList
+{
+private:
+    Node<T> *head,*tail;
+public:
+
+    void print(){
+        Node<T> now=*head;
+        if(now==NULL){
+            cout << "List is empty" << endl;
+            return;
+        }
+        cout << "List: ";
+        do{
+            cout << now->val <<  " ";
+        }while(now!=*tail);
+        cout << endl;
+    }
+    void insertAtBegin(T val)
+    {
+        Node<T> *v=new Node<T>(val);
+        v->next=this->head;
+
+        if(head!=NULL) head->prev=v;
+        head=v;
+    }
+
+    void insertAtEnd(T val)
+    {
+
+    }
+
+    void insertAfterNode(class Node<T> *v)
+    {
+
+    }
+
+    void deleteFromBegin()
+    {
+
+    }
+
+    void deleteFromEnd()
+    {
+
+    }
+
+    void deleteAfterNode(class Node<T> *v)
+    {
+
+    }
+
+
+
+
+    friend class Node<T>;
+};

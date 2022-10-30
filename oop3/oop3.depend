@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1653945885 source:b:\codeblocks\projects\oop3\main.cpp
+	<bits/stdc++.h>
+	"boost/di.hpp"
+
+1595421175 b:\codeblocks\projects\oop3\boost\di.hpp
+	<__config>
+	<memory>
+	<vector>
+	<set>
+	<initializer_list>
+	<tuple>
+	<iterator>
+	<string>
+	<boost/shared_ptr.hpp>
+

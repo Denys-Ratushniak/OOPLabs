@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1654078010 source:b:\codeblocks\projects\oop4\main.cpp
+	"librariesClassesNamespaces.h"
+	"IDish.h"
+	"Pizza.h"
+	"IPizzaBuilder.h"
+	"PizzaDirector.h"
+	"NormalPizzaBuilder.h"
+	"FastPizzaBuilder.h"
+
+1595421175 b:\codeblocks\projects\oop4\boost\di.hpp
+	<__config>
+	<memory>
+	<vector>
+	<set>
+	<initializer_list>
+	<tuple>
+	<iterator>
+	<string>
+	<boost/shared_ptr.hpp>
+
+1654075602 b:\codeblocks\projects\oop4\librariesclassesnamespaces.h
+	<bits/stdc++.h>
+	"boost/di.hpp"
+
+1654075097 b:\codeblocks\projects\oop4\idish.h
+
+1654075138 b:\codeblocks\projects\oop4\pizza.h
+
+1654075183 b:\codeblocks\projects\oop4\ipizzabuilder.h
+
+1654075220 b:\codeblocks\projects\oop4\pizzadirector.h
+
+1654075266 b:\codeblocks\projects\oop4\normalpizzabuilder.h
+
+1654075310 b:\codeblocks\projects\oop4\fastpizzabuilder.h
+
